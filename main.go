@@ -75,6 +75,7 @@ func VerifyVP(w http.ResponseWriter, req *http.Request){
          }
 	 //Extract user token and verify
 	 //Extract issuer token and verify
+	 w.Header().Set("Access-Control-Allow-Origin", "*")
 	 if isIssuerVerified(&hsvc) && isUserVerified(&hsvc) {
 		fmt.Fprintf(w, "The certificate is verfied")
 	 } else {

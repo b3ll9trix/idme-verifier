@@ -1,1 +1,1 @@
-{"@context":["https://w3id.org/security/v1"],"type":"Ed25519Signature2020","created":"2022-11-19T21:07:54Z","domain":"did.algorand.foundation","nonce":"702d99a22b4d5f6484896ebe392eb3dc","proofPurpose":"authentication","verificationMethod":"did:algo:2a92ea3e-a98a-4b5c-b6fb-29c14e043764#master","proofValue":"OmnS+BcS2Gp4vdQI9KiCENYFVb8oxjdc49+6Ro+lO3q4LbmxuyyutzG45+x/1ZPyOrNhTHgoYYuu86et/oyiBg=="}
+{"@context":null,"type":"","created":"","domain":"","nonce":"","proofPurpose":"","verificationMethod":"","proofValue":""}
