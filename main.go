@@ -72,7 +72,6 @@ func VerifyVP(w http.ResponseWriter, req *http.Request){
 	b_nospaces := strings.ReplaceAll(string(b), "\\", "")
 	b_nospaces = strings.Trim(b_nospaces, "\"")
          err := json.Unmarshal([]byte(b_nospaces), &hsvc)
-	 fmt.Println(b_nospaces)
          if err != nil {
                 fmt.Println(err)
 		//fmt.Println("%v", string(b))
